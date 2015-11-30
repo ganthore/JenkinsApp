@@ -8,3 +8,6 @@ The app is intended to be used in a way that makes Jenkins highly portable on Ma
 The wrapper should be able to handle common admin tasks like updating to the current jenkins.war with a bleeding edge vs LTS toggle, restarting the app or deleting the JENKINS_HOME folder in order to reinitilize the application if so desired.
 
 I also want to parameterize the app in a way that lets the end user easily modify specific Jenkins/Java startup switches in order to help ease the process of correcting scaling issues like raising JVM permgen/memory, enabling/disabling hudson DIY chunking, changing ports, etc.
+
+# Distribution
+I intend to redistribute binary copies of the wrapper with the JRE by complying with the set of [requirements specified by Oracle here.](http://www.oracle.com/technetwork/java/javase/jre-8-readme-2095710.html).
